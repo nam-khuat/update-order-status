@@ -1,0 +1,22 @@
+{
+    "name": "south/module-updateorderstatus",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "nam.khuat",
+            "email": "namkq91@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "South\\UpdateOrderStatus\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
